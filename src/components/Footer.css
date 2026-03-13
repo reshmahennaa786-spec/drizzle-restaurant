@@ -1,0 +1,13 @@
+/* Footer styles are in global.css */
+/* Additional footer-specific overrides */
+
+.footer-brand .nav-logo {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.42em;
+  color: var(--gold);
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 14px;
+}

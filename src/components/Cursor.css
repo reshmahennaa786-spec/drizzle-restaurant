@@ -1,0 +1,36 @@
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--gold);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.1s;
+  opacity: 0;
+}
+
+.cursor-ring {
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(201,168,76,0.55);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9998;
+  transition: width 0.3s, height 0.3s, background 0.3s, border-color 0.3s;
+  opacity: 0;
+}
+
+.cursor-ring.hovered {
+  width: 54px;
+  height: 54px;
+  background: rgba(201,168,76,0.06);
+  border-color: var(--gold);
+}
+
+@media (hover: none) {
+  .cursor-dot, .cursor-ring { display: none; }
+}
