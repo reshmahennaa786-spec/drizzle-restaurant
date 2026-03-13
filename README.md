@@ -1,4 +1,4 @@
-````markdown
+
 # 🍽️ Drizzle — Fine Dining Restaurant Website
 
 > *Dine in the Moonlight* — A luxury Indian fine dining experience near Courtallam Falls, Tenkasi.
@@ -169,6 +169,3 @@ git push origin main
 Private commercial use. All rights reserved © 2025 Drizzle Restaurant.
 
 ---
-
-<p align="center">Built with ❤️ for Drizzle Fine Dining, Courtallam</p>
-````
